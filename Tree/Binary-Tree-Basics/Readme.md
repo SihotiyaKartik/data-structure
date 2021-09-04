@@ -27,6 +27,7 @@ struct node
 ```
 ### Code
 ```js
+//using linked list
 #include<iostream>
 using namespace std;
 
@@ -54,6 +55,56 @@ return 0;
       NULL  NULL NULL NULL
      
 ```
+
+```js
+//using array
+#include<iostream>
+using namespace std;
+
+char tree[100];
+
+void root(char c){
+if(tree[0] != '\0'){
+cout<<"root already exist"<<endl;
+return;
+}
+else tree[0] = c;
+}
+
+void set_left(char c, int parent){
+if(tree[parent] == '\0'){cout<<"parent does not exist"<<endl;}
+else{
+tree[parent*2 + 1] = c;
+}
+}
+
+void set_right(char c, int parent){
+if(tree[parent] == '\0'){cout<<"parent does not exist"<<endl;}
+else{
+tree[parent*2 + 2] = c;
+}
+}
+
+void print(){
+for(int i = 0;i<101;i++){
+if(tree[i] != '\0')cout<<tree[i]<<" ";
+else{cout<<"-"<<" ";}
+}
+
+}
+
+int main(){
+root('A');
+set_left('B',0);
+set_right('C',0);
+set_left('D',1);
+set_right('E',1);
+set_right('F',2);
+print();
+return 0;
+}
+```
+
 ## Properties
 
 <ul>
