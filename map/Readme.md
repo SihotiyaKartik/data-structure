@@ -1,6 +1,8 @@
 # Map
 #### Maps are associate container that store elements in <key,value> form and no two value can have the same key.
-
+#### The elements in map are stored in ordered way
+#### The map is implemented as a balanced tree and time complexity of map operations is O(logn) and that of unordered map is O(1)->Average and O(n)->worst.
+---
 ### some functions:-
 >  - begin()
 > 
