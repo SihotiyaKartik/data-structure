@@ -79,4 +79,18 @@ Key value pair of mp after removing key=20 is:
 50 60
 ```
 
+### some different way to insert and print elements
+
+```cpp
+map<int,int> mp;
+mp[10] = 20;
+mp[20] = 30;
+mp[30] = 40;
+mp[40] = 50;
+mp[50] = 60;
+
+for(auto x:mp){
+cout<<x.first<<" "<<x.second<<endl; 
+}
+```
   
