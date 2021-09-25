@@ -5,7 +5,7 @@
 <li> The left and right subtree each must also be a binary search tree </li>
 
 ### Code
-```js
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -77,7 +77,7 @@ return 0;
 <li> Deleting Node with two chil </li>
 
 ### Code
-```js
+```cpp
 #include<iostream>
 using namespace std;
 
