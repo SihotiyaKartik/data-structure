@@ -1,5 +1,7 @@
 # Set
-#### An Associate container in which element has to be unique.
+####  - An Associate container in which element has to be unique.
+####  - implemented using binary seacrh tree
+#### - unordered set implemented using hash table
 
 ### Some basic function associated with set
 > - begin()
