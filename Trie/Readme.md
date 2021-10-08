@@ -84,4 +84,6 @@ return 0;
 }
 
 ```
-
+<p align="center">
+<img src="https://github.com/SihotiyaKartik/data-structure/blob/main/Trie/Screenshot%20(154).png" height="600" width="800">
+</p>
